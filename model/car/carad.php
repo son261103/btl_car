@@ -28,7 +28,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $bienSo = $_POST['bienSo'];
 
         // Xử lý hình ảnh
-        $target_dir = "./img";
+        $target_dir = "./img/";
         $target_file = $target_dir . basename($_FILES["hinhAnh"]["name"]);
         $uploadOk = 1;
         $imageFileType = strtolower(pathinfo($target_file, PATHINFO_EXTENSION));

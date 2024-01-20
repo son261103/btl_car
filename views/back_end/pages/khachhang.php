@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./css/khachhang.css">
     <title>Quản lý Khách Hàng</title>
     <style>
-        #zone1 body {
+        .zone1 body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
             color: #333;
@@ -15,7 +15,7 @@
             padding: 0;
         }
 
-        #zone1 .container {
+        .zone1 .container {
             width: 80%;
             margin: 0 auto;
             background-color: #fff;
@@ -23,28 +23,28 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
-        #zone1 h3 {
+        .zone1 h3 {
             margin: 1px 1.5rem;
             color: #2980b9;
         }
 
-        #zone1 form,
+        .zone1 form,
         #dskh {
             margin-bottom: 20px;
             margin: 1px 1rem;
         }
 
-        #zone1 form h3 {
+        .zone1 form h3 {
             color: #2980b9;
         }
 
-        #zone1 form label {
+        .zone1 form label {
             display: block;
             margin-bottom: 5px;
         }
 
-        #zone1 form input,
-        #zone1 form textarea {
+        .zone1 form input,
+        .zone1 form textarea {
             width: 100%;
             padding: 8px;
             margin-bottom: 10px;
@@ -53,7 +53,7 @@
             box-sizing: border-box;
         }
 
-        #zone1 button {
+        .zone1 button {
             padding: 10px 15px;
             background-color: #3498db;
             color: #fff;
@@ -62,55 +62,55 @@
             border-radius: 4px;
         }
 
-        #zone1 button:hover {
+        .zone1 button:hover {
             background-color: #2980b9;
         }
 
-        #zone1 table {
+        .zone1 table {
             width: 100%;
             border-collapse: collapse;
             margin-top: 20px;
         }
 
-        #zone1 table,
-        #zone1 th,
-        #zone1 td {
+        .zone1 table,
+        .zone1 th,
+        .zone1 td {
             border: 1px solid #ddd;
         }
 
-        #zone1 th,
-        #zone1 td {
+        .zone1 th,
+        .zone1 td {
             padding: 12px;
             text-align: left;
         }
 
-        #zone1 th {
+        .zone1 th {
             background-color: #3498db;
             color: #fff;
         }
 
-        #zone1 h1 {
+        .zone1 h1 {
             color: #2980b9;
             text-align: center;
             font-size: 2rem;
         }
 
-        #zone1 .dskh {
+        .zone1 .dskh {
             color: #3498db;
             font-size: 2rem;
             text-align: center;
         }
 
-        #zone1 .themkh,
-        #zone1 .suakh,
-        #zone1 .xoakh {
+        .zone1 .themkh,
+        .zone1 .suakh,
+        .zone1 .xoakh {
             border-bottom: 2px solid #92C7CF;
         }
     </style>
 </head>
 
 <body>
-    <section id="zone1">
+    <section class="zone1">
         <h1>Quản lý Khách Hàng</h1>
         <form method="post" action="./model/khachhang/khachhangthemsuaxoa.php">
             <h3>Tìm Kiếm Khách Hàng</h3>

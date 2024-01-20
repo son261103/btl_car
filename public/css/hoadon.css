@@ -1,0 +1,52 @@
+#zone8 body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+#zone8 h1{
+    font-size: 2rem;
+    text-align: center;
+}
+#zone8 h2 {
+    color: #333;
+}
+
+#zone8 form {
+    margin: .5rem 3rem ;
+    width: 95%;
+    /* max-width: 600px; */
+    /* margin: 2px auto; */
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#zone8 label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+#zone8 select,
+#zone8 input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+#zone8 input[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+}
+
+#zone8 input[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+#zone8 script {
+    margin-top: 20px;
+}

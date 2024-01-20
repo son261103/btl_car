@@ -73,24 +73,24 @@ if (isset($_POST["searchEmployee"])) {
 }
 
 // Hiển thị danh sách Nhân viên
-$sql = "SELECT maNhanVien, hoTen, email, soDienThoai, chucVu, diaChi FROM nhanvien";
-$result = $conn->query($sql);
+// $sql = "SELECT maNhanVien, hoTen, email, soDienThoai, chucVu, diaChi FROM nhanvien";
+// $result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
-    // Hiển thị dữ liệu Nhân viên trong bảng
-    while ($row = $result->fetch_assoc()) {
-        echo "<tr>
-                <td>" . $row["maNhanVien"] . "</td>
-                <td>" . $row["hoTen"] . "</td>
-                <td>" . $row["email"] . "</td>
-                <td>" . $row["soDienThoai"] . "</td>
-                <td>" . $row["chucVu"] . "</td>
-                <td>" . $row["diaChi"] . "</td>
-              </tr>";
-    }
-} else {
-    echo "<tr><td colspan='6'>Không có Nhân Viên nào.</td></tr>";
-}
+// if ($result->num_rows > 0) {
+//     // Hiển thị dữ liệu Nhân viên trong bảng
+//     while ($row = $result->fetch_assoc()) {
+//         echo "<tr>
+//                 <td>" . $row["maNhanVien"] . "</td>
+//                 <td>" . $row["hoTen"] . "</td>
+//                 <td>" . $row["email"] . "</td>
+//                 <td>" . $row["soDienThoai"] . "</td>
+//                 <td>" . $row["chucVu"] . "</td>
+//                 <td>" . $row["diaChi"] . "</td>
+//               </tr>";
+//     }
+// } else {
+//     echo "<tr><td colspan='6'>Không có Nhân Viên nào.</td></tr>";
+// }
 
 // Đóng kết nối
 $conn->close();

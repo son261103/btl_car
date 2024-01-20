@@ -1,33 +1,33 @@
-body {
+/* #zone3 body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
   color: #333;
   margin: 0;
   padding: 0;
-}
+} */
 
-h1 {
+#zone3 h1 {
   color: #2980b9;
   text-align: center;
   font-size: 2rem;
 }
 
-form {
+#zone3 form {
   margin-bottom: 20px;
 }
 
-form h3 {
+#zone3 form h3 {
   margin: 1px 1.5rem;
   color: #2980b9;
 }
 
-form label {
+#zone3 form label {
   display: block;
   margin-bottom: 5px;
 }
-
-form input,
-form textarea {
+  
+#zone3 form input,
+#zone3 form textarea {
   width: 100%;
   padding: 8px;
   margin-bottom: 10px;
@@ -36,7 +36,7 @@ form textarea {
   box-sizing: border-box;
 }
 
-button {
+#zone3 button {
   padding: 10px 15px;
   background-color: #3498db;
   color: #fff;
@@ -45,34 +45,34 @@ button {
   border-radius: 4px;
 }
 
-button:hover {
+#zone3 button:hover {
   background-color: #2980b9;
 }
 
-table {
+#zone3 table {
   width: 100%;
   border-collapse: collapse;
   margin-top: 20px;
 }
 
-table,
-th,
-td {
+#zone3 table,
+#zone3 th,
+#zone3 td {
   border: 1px solid #ddd;
 }
 
-th,
-td {
+#zone3 th,
+#zone3 td {
   padding: 12px;
   text-align: left;
 }
 
-th {
+#zone3 th {
   background-color: #3498db;
   color: #fff;
 }
 
-.dskh {
+#zone3 .dskh {
   color: #3498db;
   font-size: 2rem;
   text-align: center;

@@ -37,37 +37,75 @@
 
 #zone4 th,
 #zone4 td {
-    padding: 8px;
+    padding: 12px;
     text-align: left;
 }
 
 #zone4 th {
-    background-color: #f2f2f2;
+    background-color: #3498db;
+    color: #fff;
 }
 
-#zone4 form {
+#zone4 form.add {
     margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     max-width: 400px;
 }
 
-#zone4 input[type="text"],
-#zone4 input[type="file"],
-#zone4 input[type="submit"] {
-    width: 100%;
-    margin-bottom: 10px;
-    padding: 8px;
-    border: 1px solid #ccc;
+#zone4 form.add label {
+    display: block;
+    margin-bottom: 5px;
 }
 
-#zone4 input[type="submit"] {
-    background-color: #4CAF50;
-    color: white;
+#zone4 form.add input,
+#zone4 form.add textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#zone4 form.add input[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
     border: none;
     cursor: pointer;
+    border-radius: 4px;
 }
 
-#zone4 input[type="submit"]:hover {
-    background-color: #45a049;
+#zone4 form.add input[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+#zone4 form[name="delete"] {
+    margin-bottom: 20px;
+}
+
+#zone4 form[name="delete"] label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#zone4 form[name="delete"] input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#zone4 form[name="delete"] input[type="submit"] {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#zone4 form[name="delete"] input[type="submit"]:hover {
+    background-color: #c0392b;
 }
